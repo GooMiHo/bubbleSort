@@ -1,9 +1,15 @@
 function bubbleSort(arr) {
-    swap();
+    let notComplete = true;
+    while (notComplete) {
+        let newArr = swap(arr);
+        arr = swap(newArr);
+
+    }
+
 }
 
-function swap() {
+function swap(arr) {
 
+   return arr
 }
 
-console.log(Window.swap);
